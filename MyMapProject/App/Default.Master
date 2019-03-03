@@ -1,0 +1,24 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="MyMapProject.App.Default" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="header" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+
+            
+            <asp:ContentPlaceHolder id="body" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+    
+    <asp:ContentPlaceHolder id="footer" runat="server">
+    </asp:ContentPlaceHolder>
+</body>
+</html>
