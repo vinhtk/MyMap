@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="52018244-b3ce-4c17-94d4-dfa2e10b6b3d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://developers.vietbando.com/V3/Service/PartnerPortalservice.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PartnerPortalService.xsd" MetadataType="Schema" ID="5ef3a63e-c927-4691-9036-a9c8d01154e2" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd6" />
+    <MetadataFile FileName="PartnerPortalService1.xsd" MetadataType="Schema" ID="7c1e6649-f517-4267-881a-db923df4a3c7" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd4" />
+    <MetadataFile FileName="PartnerPortalService.wsdl" MetadataType="Wsdl" ID="56fee533-5e0f-4f0c-a736-e4d9b045bed9" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalservice.svc?wsdl" />
+    <MetadataFile FileName="PartnerPortalService2.xsd" MetadataType="Schema" ID="3d94a1dd-57b5-4884-b922-94f358048e4c" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd2" />
+    <MetadataFile FileName="PartnerPortalService3.xsd" MetadataType="Schema" ID="9ed2fac0-4a1e-4c5c-8c9c-4f36739ba9bd" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd0" />
+    <MetadataFile FileName="PartnerPortalService4.xsd" MetadataType="Schema" ID="2bdacd4b-afae-495c-a9f6-4e00cdf901f8" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd5" />
+    <MetadataFile FileName="PartnerPortalService5.xsd" MetadataType="Schema" ID="d0abc17b-c87f-48fa-9e70-d0c79508e0ef" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd3" />
+    <MetadataFile FileName="PartnerPortalService6.xsd" MetadataType="Schema" ID="7e29cf88-820f-45e2-9db4-20d6462b88ef" SourceId="1" SourceUrl="http://developers.vietbando.com/V3/Service/PartnerPortalService.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

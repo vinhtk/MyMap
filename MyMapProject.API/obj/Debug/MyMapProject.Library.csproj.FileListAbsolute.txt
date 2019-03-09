@@ -1,0 +1,14 @@
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\VDMS_Training.Library.dll.config
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\VDMS_Training.Library.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\VDMS_Training.Library.pdb
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\AjaxPro.2.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\MongoDB.Bson.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\MongoDB.Driver.Core.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\MongoDB.Driver.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\MongoDB.Driver.Legacy.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\System.Web.Http.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\bin\Debug\Owin.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\obj\Debug\VDMS_Training.Library.dll
+E:\Cao Hoc\Hoc ky 2 2019\Cong Nghe Phan Mem Tien Tien\MyMap\MyMapSource\MyMapProject.API\obj\Debug\VDMS_Training.Library.pdb

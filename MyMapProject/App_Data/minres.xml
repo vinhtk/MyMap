@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--COMBRES VDMS VERSION: 2017.10.06.001-->
+<combres xmlns='urn:combres'>
+    <filters>
+        <filter type="Combres.Filters.FixUrlsInCssFilter, Combres"/>
+    </filters>
+    <jsMinifiers>
+      <minifier name="yui" type="Combres.Minifiers.YuiJSMinifier, Combres">
+        <param name="IsVerboseLogging" type="bool" value="false" />
+        <param name="ObfuscateJavascript" type="bool" value="true" />
+        <param name="PreserveAllSemicolons" type="bool" value="false" />
+        <param name="DisableOptimizations" type="bool" value="false" />
+        <param name="IgnoreEval" type="bool" value="true" />
+        <param name="LineBreakPosition" type="int" value="-1" />
+      </minifier>
+      <minifier name="msajax" type="Combres.Minifiers.MSAjaxJSMinifier, Combres">
+        <param name="EvalTreatment" type="string" value="MakeAllSafe" />
+        <param name="MacSafariQuirks" type="bool" value="true" />
+        <param name="LocalRenaming" type="string" value="CrunchAll" />
+        <param name="OutputMode" type="string" value="SingleLine" />
+        <param name="RemoveUnneededCode" type="bool" value="true" />
+        <param name="StripDebugStatements" type="bool" value="true" />
+      </minifier>
+    </jsMinifiers>
+    <resourceSets url="~/combres.axd"
+                defaultDuration="30"
+                defaultVersion="auto"
+                localChangeMonitorInterval="30"
+                remoteChangeMonitorInterval="60"
+                defaultJSMinifierRef="msajax"
+                defaultDebugEnabled="false"
+                defaultIgnorePipelineWhenDebug="false">
+
+        <resourceSet name="css" type="css" debugEnabled="true">
+            <resource path="~/Content/bootstrap.css" />
+            <resource path="~/Content/Site.css" />
+        </resourceSet>
+
+        <resourceSet name="bootstrap" type="js" debugEnabled="true">
+            <resource path="~/Scripts/bootstrap.js" />
+            <resource path="~/Scripts/respond.js" />
+        </resourceSet>
+
+        <resourceSet name="modernizr" type="js" debugEnabled="true">
+            <resource path="~/Scripts/modernizr-2.8.3.js" />
+        </resourceSet>
+
+        <resourceSet name="jquery" type="js" debugEnabled="true">
+            <resource path="~/Scripts/jquery-3.2.1.min.js" />
+        </resourceSet>
+        
+        <!--Map-->
+        <resourceSet name="App_Map_Style" type="css" debugEnabled="true">
+            <resource path="~/App/Content/map.css" />
+        </resourceSet>
+        
+        <resourceSet name="App_Map_ScriptHeader" type="js" debugEnabled="true">
+            <resource reference="jquery" />
+            <resource reference="modernizr" />
+        </resourceSet>
+        <resourceSet name="App_Map_Script" type="js" debugEnabled="true">
+            <resource path="~/App/Scritps/map.js" />
+        </resourceSet>
+        <!--/Map-->
+    </resourceSets>
+</combres>
