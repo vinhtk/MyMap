@@ -7,6 +7,7 @@ using Microsoft.Owin.Security.OAuth;
 using Owin;
 using MyMapProject.Models;
 using MyMapProject.Providers;
+using Microsoft.Owin.Security.Google;
 
 namespace MyMapProject
 {
@@ -75,15 +76,15 @@ namespace MyMapProject
             //    consumerKey: "",
             //    consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //    appId: "",
-            //    appSecret: "");
+            app.UseFacebookAuthentication(
+                appId: "320918545234134",
+                appSecret: "e872aa15f983818f7cd8d6d293327457");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "593775415209-83ha0ghit3isn63676e3enpafsp0i5hq.apps.googleusercontent.com",
+                ClientSecret = "IedWrtxATjwwbFWPwZa8Ofwi"
+            });
         }
     }
 }
